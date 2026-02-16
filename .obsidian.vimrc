@@ -12,6 +12,9 @@ vnoremap c "_c
 nnoremap c "_c
 nnoremap D "_D
 
+" make Y copy the rest of the line instead of the whole line
+noremap Y y$
+
 " Put deleted text into the clipboard
 noremap <Space>d "*d
 noremap <Space>c "*c
@@ -23,3 +26,6 @@ inoremap jk <Esc>
 " move between wrapped lines as though they're separate lines
 nmap j gj
 nmap k gk
+
+" make o work with bullet points
+nnoremap o A<CR>
