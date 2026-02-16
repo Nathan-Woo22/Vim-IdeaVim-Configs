@@ -27,5 +27,10 @@ inoremap jk <Esc>
 nmap j gj
 nmap k gk
 
-" make o work with bullet points
-nnoremap o A<CR>
+" H goes to beginning of line
+noremap H ^
+" L goes to end of line
+noremap L $
+" J and K to move between paragraphs
+noremap K {
+noremap J }
