@@ -74,8 +74,11 @@ map <leader>rt <Action>(RiderUnitTestRepeatPreviousRunAction)
 " map <leader>dt <Action>(RiderUnitTestDebugContextAction)
 map <leader>gt <Action>(GotoTest)
 
-" make file in same location as currently opened one
+" -- File Stuff --
+" Make File in same location as currently opened one
 map <leader>mf <Action>(NewElementSamePlace)
+" Open File in explorer
+map <leader>of <Action>(SelectInProjectView)
 
 " hide everything but the editor
 map <leader>td <Action>(ToggleDistractionFreeMode)
@@ -86,3 +89,9 @@ map <leader>tw <Action>(HideAllWindows)
 
 " go to next warning/error in the file
 map <leader>ge <Action>(GotoNextError)
+
+" open terminal (need to set same shortcut for Tool Windows | Terminal in order to have it close terminal as well)
+map <C-t> <Action>(ActivateTerminalToolWindow)
+
+" open unit tests (need to set same shortcut for Tool Windows | Tests in order to have it close tests as well)
+map <C-u> <Action>(ActivateUnitTestsToolWindow)
