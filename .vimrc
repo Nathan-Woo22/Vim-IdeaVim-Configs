@@ -49,9 +49,10 @@ colorscheme desert
 noremap H ^
 " L goes to end of line
 noremap L $
-" J and K to move between paragraphs
-noremap K {
-noremap J }
+
+" J and K to move up and down half a page
+noremap K <c-u>
+noremap J <c-d>
 
 " execute last macro with Q
 nnoremap Q @@
