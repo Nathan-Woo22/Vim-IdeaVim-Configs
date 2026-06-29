@@ -12,9 +12,6 @@ Plug 'machakann/vim-highlightedyank'
 set easymotion
 set notimeout
 
-map <leader><leader>em <Plug>(easymotion-prefix)
-map <leader>f <Plug>(easymotion-f)
-map <leader>F <Plug>(easymotion-F)
 " trying out using default easymotion prefix
 " map <leader><leader>em <Plug>(easymotion-prefix)
 " map <leader>f <Plug>(easymotion-f)
