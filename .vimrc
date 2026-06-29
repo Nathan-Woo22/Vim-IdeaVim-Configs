@@ -12,6 +12,10 @@ set scrolloff=10
 " share the Vim clipboard with the system clipboard
 set clipboard+=unnamed
 
+" relative line numbers
+set relativenumber
+set number
+
 " don't put text in the clipboard by default
 nnoremap d "_d
 vnoremap d "_d

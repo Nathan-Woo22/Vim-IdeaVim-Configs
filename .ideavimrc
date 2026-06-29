@@ -11,6 +11,11 @@ Plug 'machakann/vim-highlightedyank'
 " type the displayed character(s) in caps to jump there in visual mode
 set easymotion
 set notimeout
+
+" Relative line numbers
+set relativenumber
+set number
+
 map <leader><leader>em <Plug>(easymotion-prefix)
 map <leader>f <Plug>(easymotion-f)
 map <leader>F <Plug>(easymotion-F)
