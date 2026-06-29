@@ -11,9 +11,11 @@ Plug 'machakann/vim-highlightedyank'
 " type the displayed character(s) in caps to jump there in visual mode
 set easymotion
 set notimeout
-map <leader><leader>em <Plug>(easymotion-prefix)
-map <leader>f <Plug>(easymotion-f)
-map <leader>F <Plug>(easymotion-F)
+
+" trying out using default easymotion prefix
+" map <leader><leader>em <Plug>(easymotion-prefix)
+" map <leader>f <Plug>(easymotion-f)
+" map <leader>F <Plug>(easymotion-F)
 
 " -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
 map <leader>rc <Action>(ReformatCode)
@@ -79,6 +81,8 @@ map <leader>gt <Action>(GotoTest)
 map <leader>mf <Action>(NewElementSamePlace)
 " Open File in explorer
 map <leader>of <Action>(SelectInProjectView)
+" copy file path
+map <leader>fc <Action>(CopyReferencePopupGroup)
 
 " hide everything but the editor
 map <leader>td <Action>(ToggleDistractionFreeMode)
